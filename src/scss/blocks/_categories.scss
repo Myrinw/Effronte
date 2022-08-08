@@ -1,0 +1,17 @@
+.categories {
+  margin-bottom: 25px;
+  &__cat {
+    padding: 40px;
+    height: 60vh;
+    background-size: cover;
+    background-position: top;
+    display: block;
+
+    h3 {
+      font-size: 20px;
+      columns: #000;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+}

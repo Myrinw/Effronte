@@ -1,0 +1,47 @@
+{
+  "name": "starter-theme-webpack",
+  "description": "Timber starter theme with Webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joppuyo/timber-starter-theme-webpack.git"
+  },
+  "author": "Johannes Siipola",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/joppuyo/timber-starter-theme-webpack/issues"
+  },
+  "homepage": "https://github.com/joppuyo/timber-starter-theme-webpack#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^1.0.1",
+    "cssnano": "^4.1.10",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^1.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass-loader": "^7.3.1",
+    "svgo-loader": "^2.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-watch-time-plugin": "^0.3.0"
+  },
+  "scripts": {
+    "dev": "webpack -w",
+    "build": "webpack",
+    "build-production": "webpack -p"
+  }
+}

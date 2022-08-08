@@ -1,0 +1,21 @@
+{#
+	/**
+	 * Block Name: category
+	 *
+
+	 */
+	#}  
+	<header class="categories">
+		<div class="container-fluid">
+			<div class="row"> 
+				{% for field in fields.categories %}
+					<div class="col">
+						<a href="" class="categories__cat" style="background-image: url( {{ field.image.url }} )">
+							<h3>{{ field.title }}</h3>
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</header> 
+	
