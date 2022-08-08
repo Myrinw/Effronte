@@ -146,6 +146,7 @@ class StarterSite extends Timber\Site
         //]);
 
         add_theme_support('menus');
+        add_theme_support('woocommerce');
     }
 
     /** This Would return 'foo bar!'.
@@ -362,10 +363,7 @@ function webp_is_displayable($result, $path)
 }
 add_filter('file_is_displayable_image', 'webp_is_displayable', 10, 2);
 
-function theme_add_woocommerce_support()
-{
-    add_theme_support('woocommerce');
-}
+
 
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 
